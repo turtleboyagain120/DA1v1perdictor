@@ -1,0 +1,162 @@
+# =============================
+# Global / general
+# =============================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Thumbs.db?
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+pythonenv/
+
+# Poetry
+.poetry/
+
+# Pipenv
+Pipfile.lock
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.coverage.toml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+build/
+dist/
+
+# Django/Flask
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+instance/
+/staticfiles/
+
+# Flask instance folder typically used for secrets/config
+instance/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Local config
+*.local
+
+# Flask/Werkzeug debug
+*.pid
+
+# =============================
+# Node / web (optional but common)
+# =============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+/dist/
+build/
+.out/
+
+# =============================
+# Python tooling / IDE
+# =============================
+.spyderproject
+.spyproject
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# =============================
+# HTML/CSS/Static site
+# (Mostly covered by build/dist above, but keep common temp files)
+*.min.js.map
+*.map
+
+# Editors & OS
+*.sublime-workspace
+*.sublime-project
+
+# =============================
+# Java
+# =============================
+# Maven/Gradle build dirs
+/target/
+build/
+
+# IDE
+*.classpath
+*.project
+.settings/
+
+# Eclipse
+.classpath
+.project
+
+# IntelliJ
+*.iml
+.idea/
+
+# Java class files
+*.class
+
+# Logs
+*.log
+
+# =============================
+# IntelliJ/NetBeans
+# =============================
+.nb-gradle/
+nbbuild/
+
+# =============================
+# Generic temp / cache
+# =============================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# =============================
+# Keep important files
+# =============================
+!.gitignore
+!README*
+
