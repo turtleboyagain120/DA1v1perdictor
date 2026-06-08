@@ -1,0 +1,33 @@
+{
+  "name": "ai-battle-predictor",
+  "version": "1.0.0",
+  "description": "Advanced AI-powered character battle prediction system",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -c-1",
+    "build": "npx babel src --out-dir dist --presets=@babel/preset-env,@babel/preset-react",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "idb": "^7.1.1",
+    "brain.js": "^2.0.0",
+    "natural": "^6.10.4",
+    "tfjs": "^0.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.22.0",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "http-server": "^14.1.1"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}
